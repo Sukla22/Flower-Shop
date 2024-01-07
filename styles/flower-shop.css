@@ -1,0 +1,84 @@
+/* common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+   
+}
+
+/* nav related styles */
+/* {
+    display: flex;
+   
+    justify-content: space-between;
+} */
+
+.web-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+}
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
+
+.introduction {
+    padding: 30;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+}
+
+.nav .banner-pic {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+}
+
+/* main section styles */
+/* our featured flowers */
