@@ -12,7 +12,6 @@ body {
 }
 
 .section-description {
-
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -20,14 +19,14 @@ body {
     line-height: 30px;
 
 }
-.i{
+
+.i {
     color: rgba(39, 39, 39, 0.80);
-text-align: center;
-
-font-size: 24px;
-
-font-weight: 600;
-line-height: 35px; /* 145.833% */
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    /* 145.833% */
 }
 
 .web-title {
@@ -35,25 +34,27 @@ line-height: 35px; /* 145.833% */
     font-size: 80px;
     font-weight: 800;
     width: 708px;
+    margin-bottom: auto;
 }
 
+/* header styles */
 header {
     background: rgba(229, 84, 115, 0.10);
     width: 1920px;
     height: 850px;
-    flex-shrink: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 635px;
     height: 800px;
-    flex-shrink: 0;
+    margin: 0 200px;
+    /* flex-shrink: 0; */
 }
 
 .introduction {
@@ -78,14 +79,19 @@ nav {
     border: 0;
 }
 
-.nav .banner-pic {
+.banner-pic {
     width: 635px;
     height: 800px;
-    flex-shrink: 0;
-    margin-bottom: 0;
+    margin-top: 50px;
+
 }
 
 /* main section styles */
+main {
+    max-width: 2000px;
+    margin: auto;
+}
+
 /* flower tree */
 .p1 {
     border-radius: 300px 300px 0px 0px;
@@ -153,19 +159,102 @@ nav {
 .icon {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    width: 2000px;
+    width: 1440px;
     height: 320px;
     flex-shrink: 0;
-    display: flex;
-    /* justify-content: center; */
+    display: inline-flex;
+    justify-content:space-around;
     align-items: center;
     margin-top: 10%;
     margin-bottom: 50px;
-    margin-left: 7%;
+    padding: auto;
+    margin-left: 5%;
 }
-.i1{
-    padding: 86px 103px 146px 31px;
+
+.text-primary {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
 }
-.i2{
-    padding: 86px 150px 146px 0;
+
+#sign-up-button {
+    margin-left: 25%;
+}
+
+.flower-vase {
+    width: 318px;
+    height: 420px;
+}
+
+.hot-deal {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+    margin-top: 5%;
+    padding: 10% 5% 0 25%;
+}
+
+.rec-pics {
+    width: 342px;
+    height: 396px;
+    padding: 20px;
+
+}
+
+.rectangle-pics {
+    display: inline-flex;
+}
+
+.email {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.latest-deal {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 1440px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url('../images/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+
+.coupon {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.copyrights {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer {
+    width: 1922px;
+    height: 400px;
+    flex-shrink: 0;
+    background: #111010;
+    text-align: center;
+    margin-top: 1%;
+    padding-top: 2%;
+}
+
+#shop {
+    color: #FFF;
+}
+#deal-description{
+    width: 594px;
 }
