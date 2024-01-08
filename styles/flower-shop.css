@@ -26,7 +26,6 @@ body {
     font-size: 24px;
     font-weight: 600;
     line-height: 35px;
-    /* 145.833% */
 }
 
 .web-title {
@@ -54,7 +53,6 @@ nav {
     width: 635px;
     height: 800px;
     margin: 0 200px;
-    /* flex-shrink: 0; */
 }
 
 .introduction {
